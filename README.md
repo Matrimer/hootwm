@@ -1,8 +1,8 @@
-hootwm
+Less Sacrilegious WM
 =====
-A very simple tiling window manager written from scratch using C and xcb, inspired by catwm.
+A fork of hootwm - A very simple tiling window manager written from scratch using C and xcb, inspired by catwm.
 
-hootwm ignores all keyboard events, but it can be controlled by sending commands to the named pipe located in `/tmp/hoot` by default.
+lswm ignores all keyboard events, but it can be controlled by sending commands to the named pipe located in `/tmp/lswm` by default.
 A grabbing keys utility such as `xbindkeys` or `sxhkd` may be used to implement hotkeys.
 
 ## Commands
@@ -14,14 +14,14 @@ A grabbing keys utility such as `xbindkeys` or `sxhkd` may be used to implement 
 | `quit`  | -         | Exit the program cleanly |
 
 Example:
-    echo move down > /tmp/hoot
-    echo grow -10 > /tmp/hoot
+    echo move down > /tmp/lswm
+    echo grow -10 > /tmp/lswm
 
 Initial gap and border size, master proportion and pipe filename can be defined at compile time by editing `config.h`.
 A config file to be evaluated at startup may be added in the future.
 
 ## Modes
-hootwm tiles windows using one master area and a stacking area on the right.
+lswm tiles windows using one master area and a stacking area on the right.
 
     +--------+---+
     |        |   |
@@ -37,3 +37,10 @@ More modes will be added in the future.
 ## Installation
  * Install xcb
  * Compile with `make`
+
+## Goals
+ * Keep it small, keep the code quality and readability good.
+## To do
+ * Monocle layout?
+ * Deck layout?
+ * Possibly keybinds
