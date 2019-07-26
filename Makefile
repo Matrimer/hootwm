@@ -1,9 +1,9 @@
-NAME= hootwm
+NAME= lswm
 CFLAGS= -Wall -Wextra -pedantic
 CFLAGS+= -std=c99 -O2
 LIBS= -lxcb
 CC= cc
-INSTALLPATH= ~/bin
+INSTALLPATH= /usr/local/bin/
 
 # Only for OpenBSD:
 LIBPATH= -L/usr/X11R6/lib
