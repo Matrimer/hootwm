@@ -36,7 +36,7 @@ More modes will be added in the future.
 
 ## Installation
  * Install xcb
- * Edit Makefile for your OS
+ * Edit Makefile
  * Compile with `make clean install`
 
 ## Goals
