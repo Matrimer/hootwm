@@ -36,7 +36,8 @@ More modes will be added in the future.
 
 ## Installation
  * Install xcb
- * Compile with `make`
+ * Edit Makefile for your OS
+ * Compile with `make clean install`
 
 ## Goals
  * Keep it small, keep the code quality and readability good.
