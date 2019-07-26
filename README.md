@@ -11,7 +11,7 @@ A grabbing keys utility such as `xbindkeys` or `sxhkd` may be used to implement 
 | `move`  | `up/down` | Move current window up or down |
 | `focus` | `up/down` | Shift focus up or down |
 | `grow`  | int32_t   | Grow or shrink master area. Positive ints grow, negative ints shrink |
-| `switch`| int10_t   | Switch to a different desktop |
+| `switch`| int       | Switch to a different desktop |
 | `quit`  | -         | Exit the program cleanly |
 
 Example:
