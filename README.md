@@ -41,6 +41,7 @@ More modes will be added in the future.
 ## Goals
  * Keep it small, keep the code quality and readability good.
 ## To do
+ * Get it to run on void-linux
  * Monocle layout?
  * Deck layout?
  * Possibly keybinds
