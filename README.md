@@ -44,4 +44,5 @@ More modes will be added in the future.
 ## To do
  * Monocle layout?
  * Deck layout?
+ * Replace default layout with dwindle?
  * Possibly keybinds
