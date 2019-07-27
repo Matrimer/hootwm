@@ -215,7 +215,7 @@ int main(void) {
 
     setup();
     signal(SIGINT, quit);
-    p("Welcome to lswm.");
+    p("Welcome to hootwm.");
     event_loop();
 
     return 0;
