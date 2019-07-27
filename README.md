@@ -39,7 +39,8 @@ More modes will be added in the future.
  * Install xcb
  * Edit Makefile
  * Compile with `make clean install`
-
+## Bugs
+ * When closing a program, it sometimes act as if the program was still there
 ## Goals
  * Keep it small, keep the code quality and readability good.
 ## To do
