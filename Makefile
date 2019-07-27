@@ -1,4 +1,4 @@
-NAME= lswm
+NAME= hootwm
 
 # OpenBSD:
 #CFLAGS= -Wall -Wextra -pedantic
